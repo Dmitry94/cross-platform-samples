@@ -1,0 +1,11 @@
+{
+  "atom-text-editor": {
+    "ctrl-alt-i": "smpl-txt-editor:inverse",
+    "ctrl-alt-u": "smpl-txt-editor:to_upper",
+    "ctrl-alt-l": "smpl-txt-editor:to_lower",
+    "ctrl-alt-d": "smpl-txt-editor:q_double",
+    "ctrl-alt-s": "smpl-txt-editor:q_single",
+    "ctrl-alt-/": "smpl-txt-editor:wrap-slash",
+    "ctrl-alt-\\": "smpl-txt-editor:wrap-bslash"
+  }
+}

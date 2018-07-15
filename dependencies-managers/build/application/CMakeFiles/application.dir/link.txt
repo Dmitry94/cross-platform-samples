@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/application.dir/main.cpp.o  -o ../bin/application -rdynamic ../lib/liblibrary.a 

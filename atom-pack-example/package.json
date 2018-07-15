@@ -1,0 +1,14 @@
+{
+  "name": "smpl-txt-editor",
+  "main": "./lib/smpl-txt-editor",
+  "version": "0.0.0",
+  "description": "Simple package for editing text",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "smpl-txt-editor:inverse",
+    "atom-workspace": "smpl-txt-editor:to_upper",
+    "atom-workspace": "smpl-txt-editor:to_lower"
+  },
+  "repository": "https://github.com/Dmitry94/atom-pack-example",
+  "license": "GPL-3.0"
+}

@@ -1,0 +1,8 @@
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/build/CMakeFiles/edit_cache.dir
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/build/CMakeFiles/rebuild_cache.dir
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/build/library/CMakeFiles/rebuild_cache.dir
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/build/library/CMakeFiles/edit_cache.dir
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/build/library/CMakeFiles/library.dir
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/build/application/CMakeFiles/edit_cache.dir
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/build/application/CMakeFiles/rebuild_cache.dir
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/build/application/CMakeFiles/application.dir

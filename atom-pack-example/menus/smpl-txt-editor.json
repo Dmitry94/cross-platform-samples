@@ -1,0 +1,38 @@
+{
+  "context-menu": {
+    "atom-text-editor": [{
+        "label": "Inverse",
+        "command": "smpl-txt-editor:inverse"
+      },
+      {
+        "label": "To Upper Case",
+        "command": "smpl-txt-editor:to_upper"
+      },
+
+      {
+        "label": "To Lower Case",
+        "command": "smpl-txt-editor:to_lower"
+      },
+
+      {
+        "label": "Quote with double",
+        "command": "smpl-txt-editor:q_double"
+      },
+
+      {
+        "label": "Quote with single",
+        "command": "smpl-txt-editor:q_single"
+      },
+
+      {
+        "label": "Wrap with slash",
+        "command": "smpl-txt-editor:wrap-slash"
+      },
+
+      {
+        "label": "Wrap with back-slash",
+        "command": "smpl-txt-editor:wrap-bslash"
+      }
+    ]
+  }
+}

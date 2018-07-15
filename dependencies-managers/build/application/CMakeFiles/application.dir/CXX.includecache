@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/simple-project/application/../library/library.h
+
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/simple-project/application/main.cpp
+library.h
+/home/dmitry/Documents/cross-platform-developing/1.0-project-build-systems/simple-project/application/library.h
+iostream
+-
+

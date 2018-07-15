@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    
+    <script>
+      const { ipcRenderer } = require('electron')
+      
+      function submit() {
+        var numberSlider = document.getElementById("numberSlider")
+        var radiusSlider = document.getElementById("radiusSlider")
+        numberOfPoints = parseInt(numberSlider.value)
+        radius = parseInt(radiusSlider.value)
+        
+        ipcRenderer.send('submit', numberOfPoints, radius)
+      }
+      
+      window.onload = function() {
+        var btn = document.getElementById("btn")
+        btn.addEventListener('click', submit);
+        
+        
+        var numberSlider = document.getElementById("numberSlider")
+        var radiusSlider = document.getElementById("radiusSlider")
+        var numberDiv = document.getElementById("numberDiv")
+        var radiusDiv = document.getElementById("radiusDiv")
+        
+        numberSlider.oninput = (function() { 
+          numberDiv.innerHTML = this.value
+          console.log(numberDiv.innerHTML)
+        })
+        
+        radiusSlider.oninput = (function() {
+          radiusDiv.innerHTML = this.value
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <b>Number of points:</b>
+      <div id="numberDiv">5 </div>
+      <input type="range" min="1" max="25" value="5" id="numberSlider">
+      
+      <br>
+      <b>Radius:</b>
+      <div id="radiusDiv"> 100</div>
+      <input type="range" min="20" max="200" value="100" id="radiusSlider">
+      <br>
+      <input id="btn" type="button" value="Ok"></input>
+    </form>
+    
+  </body>
+</html>
